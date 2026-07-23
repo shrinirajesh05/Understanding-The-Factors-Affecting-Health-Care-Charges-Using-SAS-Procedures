@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_means_descriptive",
+  "source_file": "SAS_Code.sas",
+  "source_blob_sha": "2c0f12c66c75a46beda1c0244a37af611df46cbb",
+  "source_commit": "083e3c52a515d6f138b906dfaf28a9f8ac62beee",
+  "notes": "PROC MEANS descriptive stats (mean/median/skew/stddev/var/q1/q3) on continuous vars; Code 5. Data inlined from healthinsurance.csv; libref rewritten to WORK."
+}

@@ -1,0 +1,28 @@
+                                                  heath insurance data
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                    Dependent Variable: charges individual medical costs billed by health insurance                     
+
+Source                 DF     Sum of Squares       Mean Square   F Value    Pr > F
+---------------  --------  -----------------  ----------------  --------  --------
+Model                   6  10818697253.04583  1803116208.84097     58.42    <.0001
+Error                  53   1635836048.58219    30864831.10532                    
+Corrected Total        59  12454533301.62802                                      
+
+Root MSE        5555.61258    R-Square            0.8687
+Dependent Mean   15233.09389    Adj R-Sq            0.8538
+Coeff Var         36.47068
+
+                                                                              Parameter Estimates                                                                              
+
+Variable       Label                                                                        DF      Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+-------------  ---------------------------------------------------------------------  --------  ------------  --------------  --------  --------  ---------  ------------------
+Intercept      Intercept                                                                     1  -12387.21549      4576.19916     -2.71    0.0091          .                   .
+age            age beneficiary                                                               1     269.52673        49.24513      5.47    <.0001    0.92623             1.07964
+bmi            body mass index                                                               1     339.58856       133.47074      2.54    0.0139    0.90389             1.10633
+children       number of children covered by health insurance / number of dependents         1     210.74643       663.48186      0.32    0.7520    0.92336             1.08300
+smoker_status                                                                                1   27270.60600      1825.07816     14.94    <.0001    0.78973             1.26625
+sex_status                                                                                   1    3203.05259      1585.52271      2.02    0.0484    0.81943             1.22036
+region_value                                                                                 1   -1329.61246       661.97221     -2.01    0.0497    0.89327             1.11948
+

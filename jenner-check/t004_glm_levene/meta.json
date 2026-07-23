@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_glm_levene",
+  "source_file": "SAS_Code.sas",
+  "source_blob_sha": "2c0f12c66c75a46beda1c0244a37af611df46cbb",
+  "source_commit": "083e3c52a515d6f138b906dfaf28a9f8ac62beee",
+  "notes": "PROC GLM one-way model of log10(charges) by smoker with Levene homogeneity-of-variance test; Code 7. Data inlined; libref rewritten to WORK."
+}

@@ -1,0 +1,12 @@
+                                                  heath insurance data
+
+                                                  The MEANS Procedure
+
+ Variable  Label                                                                           Mean      Median    Skewness     Std Dev         Variance   Lower Quartile   Upper Quartile
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ age       age beneficiary                                                                37.13       34.00        0.41       15.26           232.90            23.50            54.00
+ bmi       body mass index                                                                31.04       31.87       -0.27        5.70            32.49            26.46            35.61
+ children  number of children covered by health insurance / number of dependents           0.97        1.00        1.15        1.13             1.29             0.00             2.00
+ charges   individual medical costs billed by health insurance                         15233.09     9421.49        1.03    14529.07     211093784.77          3668.23         23406.53
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-23T15:07:45.959055+00:00",
+  "_captured_run_id": "r_5e81973146974abdabec0425d15fb034",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 60 rows from DATALINES.",
+    "NOTE: Wrote healthin (60 rows, 7 columns).",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

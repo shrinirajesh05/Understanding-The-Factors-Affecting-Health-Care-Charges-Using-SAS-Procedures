@@ -1,0 +1,53 @@
+                                                  heath insurance data
+
+                                     
+---------------------------  --------
+Number of Observations Read        60
+Number of Observations Used        60
+
+                 Response Profile                 
+  Probability modeled is charges_seperation='1'   
+
+Ordered Value  charges_seperation  Total Frequency
+-------------  ------------------  ---------------
+            1  0                                41
+            2  1                                19
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: charges_seperation
+
+Criterion     Value
+---------  --------
+AIC          25.905
+-2 Log L     21.905
+SC           30.093
+
+              Analysis of Maximum Likelihood Estimates              
+
+Parameter      Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+-------------  --------  --------------  ---------------  ----------
+Intercept       -2.6150          0.5981          19.1153      <.0001
+smoker_status   13.4678         56.8376           0.0561      0.8127
+
+                       Odds Ratio Estimates                        
+
+Effect         Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+-------------  --------------  -----------------  -----------------
+smoker_status        >999.999             <0.001           >999.999
+
+        Summary of Stepwise Selection        
+
+    Step  Effect    Variable       Pr > ChiSq
+--------  --------  -------------  ----------
+       1  Entered   smoker_status      0.8127
+
+Variables Selected
+
+Variable     
+-------------
+smoker_status
+

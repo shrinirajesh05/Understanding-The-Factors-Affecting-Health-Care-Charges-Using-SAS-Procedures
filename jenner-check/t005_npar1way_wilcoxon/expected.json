@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-23T15:07:45.959055+00:00",
+  "_captured_run_id": "r_c4bff3b03d8b4f5f87825f31ad18f3af",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 60 rows from DATALINES.",
+    "NOTE: Wrote healthin (60 rows, 7 columns).",
+    "NOTE: PROC NPAR1WAY data=healthin"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
