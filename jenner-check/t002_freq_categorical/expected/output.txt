@@ -1,0 +1,23 @@
+                                                  heath insurance data
+
+                                                   The FREQ Procedure
+
+                                                         Cumulative    Cumulative
+insurance contractor gender    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------
+female                                29     48.33           29        48.33
+male                                  31     51.67           60       100.00
+
+                                                                         Cumulative    Cumulative
+rhe beneficiarys residential area in the us    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------------------------------
+northeast                                             14     23.33           14        23.33
+northwest                                             15     25.00           29        48.33
+southeast                                             17     28.33           46        76.67
+southwest                                             14     23.33           60       100.00
+
+                                            Cumulative    Cumulative
+smoking status    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+no                       44     73.33           44        73.33
+yes                      16     26.67           60       100.00

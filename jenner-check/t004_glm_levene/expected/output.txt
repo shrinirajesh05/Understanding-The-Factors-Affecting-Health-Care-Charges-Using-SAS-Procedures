@@ -1,0 +1,26 @@
+                                                  heath insurance data
+
+                         The GLM Procedure                         
+                  Dependent Variable: charges_log                  
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+smoker           1         7.34496      7.34496     76.73    <.0001
+Error           58         5.55232      0.09573                    
+
+Root MSE           0.30940    R-Square            0.5695
+Adj R-Sq            0.5621
+
+   Means for Effect: smoking status   
+
+Level         Mean   Std Dev         N
+--------  --------  --------  --------
+no         3.74994   0.35123        44
+yes        4.54114   0.12853        16
+
+Levene's Test for Homogeneity of Variance
+
+Statistic    Pr > F
+---------  --------
+  17.4541    0.0001
+

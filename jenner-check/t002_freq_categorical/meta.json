@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_freq_categorical",
+  "source_file": "SAS_Code.sas",
+  "source_blob_sha": "2c0f12c66c75a46beda1c0244a37af611df46cbb",
+  "source_commit": "083e3c52a515d6f138b906dfaf28a9f8ac62beee",
+  "notes": "PROC FREQ one-way frequency tables on sex/region/smoker; Code 6. Data inlined; libref rewritten to WORK."
+}

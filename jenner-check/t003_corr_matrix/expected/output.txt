@@ -1,0 +1,32 @@
+                                                  heath insurance data
+
+                    The CORR Procedure
+          7 Variables:    age beneficiary   sex_status   body mass index   number of children covered by health insurance / number of dependents   smoker_status   region_value   individual medical costs billed by health insurance
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+age beneficiary                                                              60     37.13333     15.26097    2228.00000    18.00000     63.00000
+sex_status                                                                   60      0.51667      0.50394      31.00000     0.00000      1.00000
+body mass index                                                              60     31.04342      5.69982    1862.60500    17.38500     42.13000
+number of children covered by health insurance / number of dependents        60      0.96667      1.13446      58.00000     0.00000      5.00000
+smoker_status                                                                60      0.26667      0.44595      16.00000     0.00000      1.00000
+region_value                                                                 60      1.55000      1.15605      93.00000     0.00000      3.00000
+individual medical costs billed by health insurance                          60  15233.09389  14529.06689  913985.63358  1137.01100  51194.55914
+   Pearson Correlation Coefficients, N = 60
+          Prob > |r| under H0: Rho=0
+                 age  sex_status       bmi  children  smoker_status  region_value   charges
+--------  --------  --------  --------  --------  --------  --------  --------
+age        1.00000  -0.23831   0.05791  -0.00953   0.00714  -0.04554   0.27498
+              .       0.0667    0.6603    0.9424    0.9568    0.7297    0.0335
+sex_status  -0.23831   1.00000   0.05278  -0.23619   0.28157   0.08583   0.27338
+            0.0667      .       0.6888    0.0692    0.0293    0.5144    0.0346
+bmi        0.05791   0.05278   1.00000   0.06291   0.27246   0.16673   0.36694
+            0.6603    0.6888      .       0.6330    0.0352    0.2029    0.0039
+children  -0.00953  -0.23619   0.06291   1.00000  -0.11614  -0.08917  -0.09188
+            0.9424    0.0692    0.6330      .       0.3769    0.4981    0.4850
+smoker_status   0.00714   0.28157   0.27246  -0.11614   1.00000   0.30247   0.87272
+            0.9568    0.0293    0.0352    0.3769      .       0.0188    <.0001
+region_value  -0.04554   0.08583   0.16673  -0.08917   0.30247   1.00000   0.16477
+            0.7297    0.5144    0.2029    0.4981    0.0188      .       0.2084
+charges    0.27498   0.27338   0.36694  -0.09188   0.87272   0.16477   1.00000
+            0.0335    0.0346    0.0039    0.4850    <.0001    0.2084      .

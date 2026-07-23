@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_logistic_stepwise",
+  "source_file": "SAS_Code.sas",
+  "source_blob_sha": "2c0f12c66c75a46beda1c0244a37af611df46cbb",
+  "source_commit": "083e3c52a515d6f138b906dfaf28a9f8ac62beee",
+  "notes": "PROC LOGISTIC binary model of charges_seperation with stepwise selection; Code 8. Data inlined; libref rewritten to WORK, output-dataset statement dropped."
+}

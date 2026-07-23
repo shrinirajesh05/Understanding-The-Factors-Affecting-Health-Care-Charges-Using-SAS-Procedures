@@ -1,0 +1,84 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA healthin
+
+NOTE: Processing inline DATALINES (60 lines)
+
+NOTE: Read 60 rows from DATALINES.
+NOTE: Wrote healthin (60 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to heath insurance data.
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA healthin
+
+
+NOTE: Read 60 rows from healthin.
+NOTE: Wrote healthin (60 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC REG data=healthin
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: ODS plot written: reg_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: reg_residual_histogram_panel.spec.json
+NOTE: ODS plot written: reg_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: reg_qq_plot.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.

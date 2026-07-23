@@ -1,0 +1,30 @@
+                                                  heath insurance data
+
+                                 The NPAR1WAY Procedure                                 
+Wilcoxon Scores (Rank Sums) for Variable individual medical costs billed by health insurance
+
+smoking status         N  Sum of Scores  Expected Under H0  Std Dev Under H0  Mean Score
+--------------  --------  -------------  -----------------  ----------------  ----------
+yes                   16       834.0000           488.0000           59.8200     52.1200
+no                    44       996.0000          1342.0000           59.8200     22.6400
+
+   Kruskal-Wallis Test   
+
+Statistic           Value
+---------------  --------
+Chi-Square        33.4527
+DF                      1
+Pr > Chi-Square    <.0001
+P Value            <.0001
+
+  Wilcoxon Two-Sample Test  
+
+Statistic              Value
+------------------  --------
+S                   834.0000
+Expected Under H0   488.0000
+Std Dev Under H0     59.8220
+Z                     5.7838
+Two-Sided Pr > |Z|    <.0001
+P Value               <.0001
+
